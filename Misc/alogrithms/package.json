@@ -1,0 +1,13 @@
+{
+    "name": "algorithms",
+    "description": "algorithms projects in FreeCodeCamp",
+    "authors": "QuyenHo",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "dependencies": {
+        "typescript": "^3.2.1"
+    },
+    "devDependencies": {
+        "tslint": "^5.11.0"
+    }
+}
