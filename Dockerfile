@@ -12,4 +12,4 @@ RUN npm install
 COPY . /usr/src/backend
 
 #Map the local:docker volume
-VOLUME //c/Users/QuyenH/Documents/GitHub/fcc-projects/server:/usr/src/backend
+VOLUME d:/GitHub/freecodecamp-backend/test:/usr/src/backend
