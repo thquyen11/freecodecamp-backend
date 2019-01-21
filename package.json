@@ -38,11 +38,11 @@
     "ts-node": "^7.0.1"
   },
   "scripts": {
-    "build": "tsc",
+    "build-prod": "tsc",
     "dev": "nodemon ./src/server.ts",
     "test": "jest --watch",
     "start": "ts-node ./src/server.ts",
-    "prod": "npm run build && npm run start"
+    "deploy": "npm run build && npm run start"
   },
   "husky": {
     "hooks": {
