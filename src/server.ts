@@ -85,7 +85,7 @@ const db: any = knex({
 });
 
 app.get("/", (req: Request, res: Response) => {
-  res.status(200).json("Homepage");
+  res.status(200).json("fuck you nodemon");
 });
 
 // File Metadata Microservice project

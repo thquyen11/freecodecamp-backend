@@ -10,6 +10,3 @@ RUN npm install
 
 #Bundle app source
 COPY . /usr/src/backend
-
-#Map the local:docker volume
-VOLUME d:/GitHub/freecodecamp-backend/test:/usr/src/backend

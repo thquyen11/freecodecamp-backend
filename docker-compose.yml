@@ -1,4 +1,4 @@
-version: '3.6'
+version: "3.6"
 
 services:
   #postgres database
@@ -17,7 +17,7 @@ services:
     image: redis:5.0.3
     ports:
       - "6379:6379"
-    
+
   #expres.js backend server
   backend:
     container_name: express
@@ -25,8 +25,8 @@ services:
     command: npm run dev
     ports:
       - "3001:3001"
-    # volumes:
-    #   - ./:/usr/src/backend
+    volumes:
+      - ./:/usr/src/backend
     env_file:
       - .env
     environment:
