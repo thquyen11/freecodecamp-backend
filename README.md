@@ -1,4 +1,4 @@
-# Freecodecamp Frontend
+# Freecodecamp Backend
 
 - Collection of all backend related projects + algorithms exercises I did in [freecodecamp](https://learn.freecodecamp.org/) of full stack web developer certifications program
 
